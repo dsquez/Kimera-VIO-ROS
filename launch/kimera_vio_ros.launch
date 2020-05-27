@@ -21,7 +21,7 @@
   <!-- If true, log ground-truth poses to a csv file using the
        gt_logger_node, and processing data from the gt_topic rostopic -->
   <arg name="log_gt_data" default="false"/>
-  <arg name="gt_topic" default="ground_truth_odometry_topic"/>
+  <arg name="gt_topic" default="tf"/>
 
   <!-- If true, SparkVio will enable the LoopClosureDetector module. -->
   <arg name="use_lcd" default="false"/>
